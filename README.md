@@ -1,31 +1,44 @@
 # Hi, I'm Will  
 **Python Developer | Audio Engineer | Creative Technologist**
 
-I'm a Python developer and audio engineer focused on building practical tools, automation scripts, games, and data projects.  
-I’m also the founder of **Terra Echo Studios**, creating sound design, mixing, and production work inspired by nature.
+I’m an audio engineer and technologist with a strong interest in software
+development, automation, and hardware-based tools.
 
-###  **Tech I Work With**
-- Python (automation, games, data, APIs)
+I enjoy building practical systems that connect sound, code, and physical
+interfaces — ranging from MIDI utilities and audio workflow tools to
+Raspberry Pi–based hardware projects.
+
+###  About Me
+Nature lover, problem-solver, and builder.
+I enjoy creating tools that improve people’s experiences and blending
+technology with sound in practical, thoughtful ways.
+
+###  Current Focus
+- Raspberry Pi development using GPIO
+- Python scripting for automation and tooling
+- Sensors, servos, and hardware interaction
+- Designing software that interfaces with physical systems
+
+###  Audio & Media Systems
+- MIDI tooling and controller logic
+- Algorithmic music and chord generation
+- Audio workflow automation
+- Experimental interfaces for sound and control
+
+###  Software & Hardware Skills
+- Python
+- Raspberry Pi / GPIO
+- Hardware prototyping (breadboards, sensors, servos)
+- MIDI and audio systems
+- Linux / Raspberry Pi OS
 - Git & GitHub
-- Logic Pro, sound design, field recording
-- SQLite / JSON data storage
-- Flask (beginner), web scraping, scripting
+- Basic electronics and signal flow concepts
 
-###  **What I’m Working On**
-- A collection of Python portfolio projects  
-- Audio analysis tools  
-- Nature-inspired sound design projects  
-- Building my developer foundations stronger every day
+###  Selected Projects
+- **Raspberry Pi Ultrasonic Radar** – Servo-mounted ultrasonic sensor with real-time visualization
+- **MIDI Tools** – Python-based MIDI utilities and generators
+- **Hardware Experiments** – Raspberry Pi GPIO-based projects and prototypes
 
-###  **Featured Projects**
-- 🎮 Python Adventure Game  
-- 🔊 Audio Analyzer Tool  
-- 📊 Simple Data Dashboard  
-- 🤖 Automation Scripts Collection
+ Contact: willhall.wch@gmail.com
+ Website: TerraechoStudio.com 
 
-###  **About Me**
-Nature lover, problem-solver, and builder.  
-I like making creative tools, improving people's experiences, and blending tech with sound.
-
-📫 **Contact:** terraechostudios@gmail.com  
-🌐 **Website:** terraechostudio.com
