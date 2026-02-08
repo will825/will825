@@ -1,43 +1,43 @@
-# Hi, I'm Will  
-**Python Developer | Audio Engineer | Creative Technologist**
+Hi, I’m Will 
+Linux-focused technologist building monitoring, logging, and automation systems using Python and Raspberry Pi.
+I specialize in designing and deploying real-time infrastructure tools in Linux environments using systemd, journald, REST APIs, and structured logging.
+I enjoy solving operational problems, improving system visibility, and building tools that make infrastructure more reliable.
+Currently seeking remote entry-level roles in IT, infrastructure, NOC, or automation-focused environments.
 
-I’m an audio engineer and technologist with a strong interest in software
-development, automation, and hardware-based tools.
+ Featured Projects
 
-I enjoy building practical systems that connect sound, code, and physical
-interfaces — ranging from MIDI utilities and audio workflow tools to
-Raspberry Pi–based hardware projects.
+ SysMon Dashboard
+Real-time Linux system monitoring dashboard built with FastAPI, SQLite, and Chart.js.
+Implements background metric collection, REST health endpoints, and stale-data detection.
+Deployed as a persistent systemd service on Raspberry Pi.
 
-###  About Me
-Nature lover, problem-solver, and builder.
-I enjoy creating tools that improve people’s experiences and blending
-technology with sound in practical, thoughtful ways.
+ Log Alert Service
+Journald-based log monitoring and alerting service using regex-driven detection.
+Outputs structured JSON alerts with timestamp, host, process, and PID parsing.
+Includes rate limiting and production-style systemd deployment.
 
-###  Current Focus
-- Raspberry Pi development using GPIO
-- Python scripting for automation and tooling
-- Sensors, servos, and hardware interaction
-- Designing software that interfaces with physical systems
+ Environmental Monitoring System
+Raspberry Pi–based IoT monitoring platform with sensor integration and REST API access.
+Implements periodic background polling and dashboard-based metric visualization.
 
-###  Audio & Media Systems
-- MIDI tooling and controller logic
-- Algorithmic music and chord generation
-- Audio workflow automation
-- Experimental interfaces for sound and control
+ Tech Stack
 
-###  Software & Hardware Skills
-- Python
-- Raspberry Pi / GPIO
-- Hardware prototyping (breadboards, sensors, servos)
-- MIDI and audio systems
-- Linux / Raspberry Pi OS
-- Git & GitHub
-- Basic electronics and signal flow concepts
+Python
+Linux (systemd, journald, SSH)
+FastAPI
+SQLite
+Git / GitHub
+Raspberry Pi
+Networking fundamentals
+Mac OS
 
-###  Selected Projects
-- **Raspberry Pi Ultrasonic Radar** – Servo-mounted ultrasonic sensor with real-time visualization
-- **MIDI Tools** – Python-based MIDI utilities and generators
-- **Hardware Experiments** – Raspberry Pi GPIO-based projects and prototypes
+What I’m Focused On
+
+Infrastructure monitoring
+Log analysis & alerting
+Automation and reliability
+Linux systems administration
+Backend service development
 
  Contact: willhall.wch@gmail.com
  Website: TerraechoStudio.com 
