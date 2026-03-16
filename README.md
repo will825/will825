@@ -1,44 +1,54 @@
-Hi, I’m Will 
-Linux-focused technologist building monitoring, logging, and automation systems using Python and Raspberry Pi.
-I specialize in designing and deploying real-time infrastructure tools in Linux environments using systemd, journald, REST APIs, and structured logging.
-I enjoy solving operational problems, improving system visibility, and building tools that make infrastructure more reliable.
-Currently seeking remote entry-level roles in IT, infrastructure, NOC, or automation-focused environments.
+## Hi, I'm Will 👋
 
- Featured Projects
+Audio engineer. Python developer. Builder of things that make sound smarter.
 
- SysMon Dashboard
-Real-time Linux system monitoring dashboard built with FastAPI, SQLite, and Chart.js.
-Implements background metric collection, REST health endpoints, and stale-data detection.
-Deployed as a persistent systemd service on Raspberry Pi.
+I spent six years developing a professional ear — editing dialogue for award-winning films, mixing live shows for thousands of people, and running [Terra Echo Studios](https://terraechostudio.com), my independent audio production studio. Somewhere along the way I started building the tools I wished existed.
 
- Log Alert Service
-Journald-based log monitoring and alerting service using regex-driven detection.
-Outputs structured JSON alerts with timestamp, host, process, and PID parsing.
-Includes rate limiting and production-style systemd deployment.
+Now I sit at the intersection of audio craft and software development. I integrate LLMs into real production workflows, ship full-stack Python applications, and build AI-powered tools for music and audio. I care about sound quality, clean code, and the natural world.
 
- Environmental Monitoring System
-Raspberry Pi–based IoT monitoring platform with sensor integration and REST API access.
-Implements periodic background polling and dashboard-based metric visualization.
+---
 
- Tech Stack
+### What I'm building
 
-Python
-Linux (systemd, journald, SSH)
-FastAPI
-SQLite
-Git / GitHub
-Raspberry Pi
-Networking fundamentals
-Mac OS
+**[Terra Echo Labs — Music Production Intelligence Suite](https://github.com/will825/terra-echo-labs-music-assistant)**
+A macOS desktop app for music producers. AI chord progression generator (Groq / Llama 3.3 70B), 4-stem audio splitter running Demucs v4 on Metal GPU, MIDI engine, YouTube → 24-bit WAV extractor, music theory reference. Built with Electron, React, Python/FastAPI, PyTorch.
 
-What I’m Focused On
+**[SkyForge](https://github.com/will825)**
+Full-stack space intelligence dashboard — 10+ live APIs (NASA, NOAA, ISS telemetry), async caching, Pydantic v2 schema validation, pytest suite, Docker Compose. Python/FastAPI backend + React/TypeScript frontend.
 
-Infrastructure monitoring
-Log analysis & alerting
-Automation and reliability
-Linux systems administration
-Backend service development
+**[SysMon Dashboard](https://github.com/will825/sysmon-dashboard)**
+Real-time Linux system monitoring deployed as a persistent systemd service on Raspberry Pi. FastAPI, SQLite, Chart.js, stale-data detection.
 
- Contact: willhall.wch@gmail.com
- Website: TerraechoStudio.com 
+**[Log Alert Service](https://github.com/will825/log-alert-service)**
+Journald-based log monitoring with regex-driven pattern detection, structured JSON alerting, rate limiting, and production systemd deployment.
 
+**[Environmental & Mushroom Monitor](https://github.com/will825/environmental-monitor)**
+IoT platform with automated sensor collection, data validation logic, photography, and real-time visualization. Python + Raspberry Pi.
+
+---
+
+### What I work with
+
+```
+Audio       Pro Tools · Logic Pro · iZotope RX · Waves · Cedar DNS · Dante (Level 3)
+AI / LLMs   Claude API · OpenAI · Groq · Demucs v4 · PyTorch · prompt engineering
+Backend     Python · FastAPI · REST APIs · Pydantic v2 · SQLite · Docker · pytest
+Frontend    React · TypeScript · Electron · JavaScript · HTML/CSS · Chart.js
+Systems     Linux · systemd · Raspberry Pi · IoT · SSH · Git
+```
+
+---
+
+### A bit more
+
+- 🎓 B.S. Audio Engineering Technology — Belmont University (Minor: Music Business)
+- 🏔️ Based in Boone, NC
+- 🎙️ Founder of [Terra Echo Studios](https://terraechostudio.com) — audio production for 30+ clients
+- 🌱 Interested in environmental monitoring, acoustic ecology, and sustainable tech
+- 🔧 I love building things that didn't exist before
+
+---
+
+*Currently exploring roles at the intersection of audio engineering, AI, and music technology.*
+
+📬 willhall.wch@gmail.com · [LinkedIn](https://linkedin.com/in/will-hall28) · [terraechostudio.com](https://terraechostudio.com)
