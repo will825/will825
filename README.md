@@ -38,7 +38,9 @@ Fissure is the first release in a line of native, offline-first audio tools I'm 
 
 
 Blueprint — an AI mastering-chain builder: analyze a track against a reference, then recommend a signal chain from the user's own plugins (Rust audio analysis with LLM interpretation).
+
 Fragment — Granular texture engine — real-time granular processor with macro-driven controls designed for atmospheric/electronic music.
+
 Cone — a dual-input low-end phase-coherence tool for the classic kick-versus-bass problem.
 
 
@@ -47,10 +49,15 @@ Same idea as Fissure every time: native, offline, no subscriptions, built for ho
 
 What I work with
 
+
 Languages - Rust, TypeScript, Python, JavaScript, SQL
+
 AI -  / MLONNX Runtime (on-device serving), htdemucs, MDX-Net, Demucs/PyTorch, Claude / OpenAI / Groq APIs, agentic dev (Claude Code, Cursor, Codex)
+
 Backend - Tauri 2 (Rust), FastAPI, REST, Pydantic v2, SQLite, Docker, pytest
+
 Frontend - React, Vite, TypeScript, Tailwind, Electron, Chart.js
+
 Audio - Pro Tools, Logic Pro, iZotope RX, STFT/ISTFT, mastering, Dante (Level 3)SystemsLinux, systemd, Raspberry Pi, universal binaries, Git
 
 
