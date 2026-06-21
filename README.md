@@ -1,69 +1,68 @@
-Hi, I'm Will
+## Hi, I'm Will
 
 I'm an audio engineer who became a software engineer, and I build production tools for music and audio — the kind of thing I always wished existed when I was behind the console.
 
-For six years my job was listening closely: editing dialogue for award-winning films, mixing live rooms, and running Terra Echo Studios, my own audio practice. The more I worked, the more I ran into the same gaps — tools that were slow, locked behind subscriptions, or just didn't exist. So I taught myself to build them. These days I work where audio craft meets software: writing Rust, serving ML models on-device, wiring up LLMs, and shipping full-stack apps end to end. I care about how things sound, how code reads, and whether the thing actually works for the person using it.
+For years my job was listening closely: editing dialogue for award-winning films, mixing live rooms, and running Terra Echo Studios, my own audio practice. The more I worked, the more I ran into the same gaps — tools that were slow, locked behind subscriptions, or just didn't exist. So I taught myself to build them. These days I work where audio craft meets software: writing Rust, serving ML models on-device, wiring up LLMs, and shipping full-stack apps end to end. I care about how things sound, how code reads, and whether the thing actually works for the person using it.
 
 I'm looking for a role where I can do this full-time, ideally somewhere at the intersection of audio, AI, and music technology.
 
+---
 
-Things I've built
+## Things I've built
 
-Fissure — AI stem splitter for macOS
+### Fissure — AI stem splitter for macOS
 
-Live and shipped. A native Mac app that splits any song into clean stems — vocals, drums, bass, and more — running entirely offline. The interesting part is under the hood: a Rust core (Tauri 2) that serves three ONNX audio-ML models through an audio pipeline I wrote by hand — decode, resample, STFT/ISTFT, overlapping-chunk inference, 24-bit WAV out — behind a lazy session pool with CoreML-or-CPU execution-provider fallback. Built solo, end to end, and shipped as a signed universal binary.
+*Live and shipping.* A native Mac app that splits any song into clean stems — vocals, drums, bass, and more — running entirely offline. The interesting part is under the hood: a Rust core (Tauri 2) that serves three ONNX audio-ML models through an audio pipeline I wrote by hand — decode, resample, STFT/ISTFT, overlapping-chunk inference, 24-bit WAV out — behind a lazy session pool with CoreML-or-CPU execution-provider fallback. Built solo, end to end, and shipped as a signed universal binary.
 
-Rust · Tauri 2 · ONNX Runtime · React · TypeScript  —  Download · Repo
+Rust · Tauri 2 · ONNX Runtime · React · TypeScript — [Download](https://terraecho.gumroad.com/l/rlpqdr) · [Repo](https://github.com/will825/FISSURE)
 
-SkyForge — space-intelligence dashboard
+### SkyForge — space-intelligence dashboard
 
 A full-stack dashboard that pulls 10+ live feeds (NASA, NOAA, ISS telemetry) into one place, with async caching, Pydantic v2 schema validation, a real pytest suite, and one-command Docker Compose + nginx deployment.
 
-Python · FastAPI · React · TypeScript · Docker  —  Repo
+Python · FastAPI · React · TypeScript · Docker — [Repo](https://github.com/will825/skyforge)
 
-Music Production Intelligence Suite
+### Terra Echo Studios — studio site
 
-The earlier desktop app I eventually narrowed down into Fissure: an LLM chord-progression generator (Groq / Llama 3.3 70B), a MIDI engine, a stem splitter, and a music-theory reference. A good lesson in cutting scope to ship something sharp.
+The site for my audio studio, designed and built from scratch: a React 18 + Vite single-page app (React Router, Tailwind, Keystatic CMS) with scroll-reveal animations and ambient audio, deployed on Netlify.
 
-Electron · React · FastAPI · Demucs v4  —  Repo
+React · Vite · Tailwind · Keystatic — [Live](https://terraechostudio.com) · [Repo](https://github.com/will825/terra-echo-website-2.0)
 
-Systems and IoT
+### Job Hunter — multi-source job pipeline
 
-Smaller, practical builds: a real-time Linux monitor running as a systemd service on a Raspberry Pi, a journald log-alerting service with regex pattern detection and structured JSON output, and an IoT sensor platform with data-validation logic baked in.
+A Python tool that polls 80+ company ATS APIs (Greenhouse, Lever, Ashby) and RSS feeds, scores each listing against a weighted keyword model, deduplicates in SQLite, and pushes ranked Discord alerts on a schedule.
 
+Python · Playwright · httpx · SQLite — [Repo](https://github.com/will825/job-hunter)
 
-What's next
+### More
+
+The earlier prototype I focused down into Fissure — a [Music Production Intelligence Suite](https://github.com/will825/terra-echo-labs-music-assistant) (Electron, React, FastAPI, Demucs v4) with an LLM chord-progression generator, MIDI engine, and stem splitter — plus a handful of Linux/Raspberry Pi systems builds: real-time monitoring as a systemd service, journald log-alerting with regex detection, and an IoT sensor platform with data-validation logic.
+
+---
+
+## What's next
 
 Fissure is the first release in a line of native, offline-first audio tools I'm building for producers — creative effects, mastering utilities, and audio-ML apps, each aimed at a specific gap I've hit in my own work. A few on the bench:
 
-
-Blueprint — an AI mastering-chain builder: analyze a track against a reference, then recommend a signal chain from the user's own plugins (Rust audio analysis with LLM interpretation).
-
-Fragment — Granular texture engine — real-time granular processor with macro-driven controls designed for atmospheric/electronic music.
-
-Cone — a dual-input low-end phase-coherence tool for the classic kick-versus-bass problem.
-
+- **Blueprint** — an AI mastering-chain builder: analyze a track against a reference, then recommend a signal chain from the user's own plugins (Rust audio analysis with LLM interpretation).
+- **Fragment** — a real-time granular texture engine with macro-driven controls, built for atmospheric and electronic music.
+- **Cone** — a dual-input low-end phase-coherence tool for the classic kick-versus-bass problem.
 
 Same idea as Fissure every time: native, offline, no subscriptions, built for how people actually work.
 
+---
 
-What I work with
+## What I work with
 
+- **Languages** — Rust, TypeScript, Python, JavaScript, SQL
+- **AI / ML** — ONNX Runtime (on-device serving), htdemucs, MDX-Net, Demucs/PyTorch, Claude / OpenAI / Groq APIs, agentic dev (Claude Code, Cursor)
+- **Backend** — Tauri 2 (Rust), FastAPI, REST, Pydantic v2, SQLite, Docker, pytest
+- **Frontend** — React, Vite, TypeScript, Tailwind, Electron, Chart.js
 
-Languages - Rust, TypeScript, Python, JavaScript, SQL
+---
 
-AI / ML - ONNX Runtime (on-device serving), htdemucs, MDX-Net, Demucs/PyTorch, Claude / OpenAI / Groq APIs, agentic dev (Claude Code, Cursor, Codex)
+## A little more
 
-Backend - Tauri 2 (Rust), FastAPI, REST, Pydantic v2, SQLite, Docker, pytest
+I studied Audio Engineering Technology at Belmont University (minor in Music Business), and I'm based in Boone, North Carolina, where I run Terra Echo Studios — audio production and the software behind it. Mostly I just like making things and creating!
 
-Frontend - React, Vite, TypeScript, Tailwind, Electron, Chart.js
-
-Audio - Pro Tools, Logic Pro, RX, STFT/ISTFT, mastering, Dante, mixing, music production
-
-
-
-A little more
-
-I studied Audio Engineering Technology at Belmont University (minor in Music Business), and I'm based in Boone, North Carolina, where I run Terra Echo Studios — audio production and software. Mostly I just like building and creating!
-
-Reach me: Terraechostudios@gmail.com· terraechostudio.com
+**Reach me:** terraechostudios@gmail.com · · [terraechostudio.com](https://terraechostudio.com)
