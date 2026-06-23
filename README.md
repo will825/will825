@@ -16,6 +16,12 @@ I'm looking for a role where I can do this full-time, ideally somewhere at the i
 
 Rust · Tauri 2 · ONNX Runtime · React · TypeScript — [Download](https://terraecho.gumroad.com/l/rlpqdr) · [Repo](https://github.com/will825/FISSURE)
 
+### Resonance — AI chord progression generator
+
+*Live.* Describe a vibe in plain language and get a musically-correct, voice-led chord progression you can hear in the browser and export as MIDI. The interesting part is the architecture: a Groq LLM supplies only the creative intent (chords as Roman numerals), and a deterministic TypeScript theory engine renders guaranteed-correct notes — so the output is always valid, and it degrades gracefully to a curated fallback when the AI is offline.
+
+Next.js · TypeScript · Groq · Tone.js · @tonejs/midi — [Live](https://resonance-beige-omega.vercel.app) · [Repo](https://github.com/will825/resonance)
+
 ### SkyForge — space-intelligence dashboard
 
 A full-stack dashboard that pulls 10+ live feeds (NASA, NOAA, ISS telemetry) into one place, with async caching, Pydantic v2 schema validation, a real pytest suite, and one-command Docker Compose + nginx deployment.
