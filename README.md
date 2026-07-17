@@ -1,10 +1,9 @@
 ## Hi, I'm Will
 
-I'm an audio engineer who became a software engineer, and I build production tools for music and audio — the kind of thing I always wished existed when I was behind the console.
-
-For years my job was listening closely: editing dialogue for award-winning films, mixing live rooms, and running Terra Echo Studios, my own audio practice. The more I worked, the more I ran into the same gaps — tools that were slow, locked behind subscriptions, or just didn't exist. So I taught myself to build them. These days I work where audio craft meets software: writing Rust, serving ML models on-device, wiring up LLMs, and shipping full-stack apps end to end. I care about how things sound, how code reads, and whether the thing actually works for the person using it.
-
-I'm looking for a role where I can do this full-time, ideally somewhere at the intersection of audio, AI, and music technology.
+Hi, I'm Will. Audio engineer by day, software engineer by night.
+Just kidding — I love doing both at the same time.
+I run Terra Echo Studios, where audio engineering and software development live under one roof. On any given week that means mastering a record, mixing in Dolby Atmos, or building tools that help engineers and producers do their work faster and better.
+Feel free to check out some of my work: terraechostudio.com
 
 ---
 
