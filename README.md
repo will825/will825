@@ -16,6 +16,12 @@ I'm looking for a role where I can do this full-time, ideally somewhere at the i
 
 Rust · Tauri 2 · ONNX Runtime · React · TypeScript — [Download](https://terraecho.gumroad.com/l/rlpqdr) · [Repo](https://github.com/will825/FISSURE)
 
+### Plumb — offline audio analyzer for masters
+
+*Live and shipping.* A native Mac app that gives mastering engineers a fast, accurate readout on a finished mix — true peak, integrated/short-term/momentary loudness, loudness range, PLR, PSR, clipping, and DC offset — then checks it against real delivery specs (Spotify, Apple Music, EBU R128, Netflix, and more) so you know before you upload whether a platform is going to turn it down. The interesting part is the measurement layer: loudness and true-peak math built on libebur128 so the standards-critical parts are correct, not hand-rolled, feeding a modular dashboard — spectrogram, spectrum, goniometer, tonal balance against a reference track — plus one-click PDF/CSV reports for clients. Shipped solo as a signed universal binary.
+
+Rust · Tauri 2 · React · TypeScript · libebur128 — [Download](https://terraecho.gumroad.com/l/plumb) · [Repo](https://github.com/will825/plumb)
+
 ### Resonance — AI chord progression generator
 
 *Live.* Describe a vibe in plain language and get a musically-correct, voice-led chord progression you can hear in the browser and export as MIDI. The interesting part is the architecture: a Groq LLM supplies only the creative intent (chords as Roman numerals), and a deterministic TypeScript theory engine renders guaranteed-correct notes — so the output is always valid, and it degrades gracefully to a curated fallback when the AI is offline.
