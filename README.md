@@ -10,17 +10,17 @@ I'm looking for a role where I can do this full-time, ideally somewhere at the i
 
 ## Things I've built
 
-### Fissure — AI stem splitter for macOS
-
-*Live and shipping.* A native Mac app that splits any song into clean stems — vocals, drums, bass, and more — running entirely offline. The interesting part is under the hood: a Rust core (Tauri 2) that serves three ONNX audio-ML models through an audio pipeline I wrote by hand — decode, resample, STFT/ISTFT, overlapping-chunk inference, 24-bit WAV out — behind a lazy session pool with CoreML-or-CPU execution-provider fallback. Built solo, end to end, and shipped as a signed universal binary.
-
-Rust · Tauri 2 · ONNX Runtime · React · TypeScript — [Download](https://terraecho.gumroad.com/l/rlpqdr) · [Repo](https://github.com/will825/FISSURE)
-
 ### Plumb — offline audio analyzer for masters
 
 *Live and shipping.* A native Mac app that gives mastering engineers a fast, accurate readout on a finished mix — true peak, integrated/short-term/momentary loudness, loudness range, PLR, PSR, clipping, and DC offset — then checks it against real delivery specs (Spotify, Apple Music, EBU R128, Netflix, and more) so you know before you upload whether a platform is going to turn it down. The interesting part is the measurement layer: loudness and true-peak math built on libebur128 so the standards-critical parts are correct, not hand-rolled, feeding a modular dashboard — spectrogram, spectrum, goniometer, tonal balance against a reference track — plus one-click PDF/CSV reports for clients. Shipped solo as a signed universal binary.
 
 Rust · Tauri 2 · React · TypeScript · libebur128 — [Download](https://terraecho.gumroad.com/l/plumb) · [Repo](https://github.com/will825/plumb)
+
+### Fissure — AI stem splitter for macOS
+
+*Live and shipping.* A native Mac app that splits any song into clean stems — vocals, drums, bass, and more — running entirely offline. The interesting part is under the hood: a Rust core (Tauri 2) that serves three ONNX audio-ML models through an audio pipeline I wrote by hand — decode, resample, STFT/ISTFT, overlapping-chunk inference, 24-bit WAV out — behind a lazy session pool with CoreML-or-CPU execution-provider fallback. Built solo, end to end, and shipped as a signed universal binary.
+
+Rust · Tauri 2 · ONNX Runtime · React · TypeScript — [Download](https://terraecho.gumroad.com/l/rlpqdr) · [Repo](https://github.com/will825/FISSURE)
 
 ### Resonance — AI chord progression generator
 
